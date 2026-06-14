@@ -46,3 +46,4 @@ Evaluates shipping costs across products and regions to understand freight cost 
 ## Dataset
 
 Olist E-Commerce Dataset
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
