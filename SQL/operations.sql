@@ -24,20 +24,6 @@ LIMIT 1;
 
 -- 4) Monthly Revenue Trend ?
 
--- SELECT     
---     DATE_FORMAT(order_purchase_timestamp,'%M') AS Month_,
---     YEAR(order_purchase_timestamp) AS Year_,
---     ROUND(SUM(payment_value),2) AS 'Revenue'
-
--- FROM ecommerce_data
--- 	GROUP BY 
--- 		Month_,
--- 		Year_,
--- 		MONTH(order_purchase_timestamp)
--- 	ORDER BY 
--- 		Year_,
--- 		MONTH(order_purchase_timestamp);
-
 SELECT     
     DATE_FORMAT(Purchase_Date,'%M') AS Month_,
     YEAR(Purchase_Date) AS Year_,
